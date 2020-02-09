@@ -1,0 +1,43 @@
+JSON (JavaScript Object Notation) je format kojim se, u čoveku čitljivom formatu, predstavljaju podaci koji se sastoje od atribut-vrednost parova. Najčešće se koristi za za prenos podataka između servera i web aplikacija.
+
+JSON podržava sledeće tipove podataka:
+    1) Number - brojevi u pokretnom zarezu 
+    2) String - tekstualne vrednosti pod navodnicima, sa kontra kosom  crtom (\) za eskejpovanje
+    3) Boolean - true ili false
+    4) Array - uređeni niz u kome su vrednosti odvojene zarezima u uglastim zagradama. Vrednosti niza ne moraju da budu istog tipa.
+    5) Object - neuređena kolekcija parova ključ:vrednost odvojenih zarezom. Ključevi su stringovi i moraju da budu različiti.
+    6) null - prazna vrednost
+
+U nastavku je  dat jedan primer JSON objekta kojim se reprezentuju podaci o osobi:
+
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 25,
+    "address": {
+        "streetAddress": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": 10021
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "212 555-1234"
+        },
+        {
+            "type": "fax",
+            "number": "646 555-4567"
+        }
+    ]
+}
+
+Zadatak: Implementirati Python biblioteku za rad sa JSON objektima. Pri tome treba podržati sledeću funkcionalnost:
+    1) Konverzija podataka iz Python programa u JSON.
+    2) Snimanje JSON objekta u fajl.
+    3) Čitanje JSON objekta iz fajla. 
+    4) Konverzija JSON objekata u podatke u Python programu.
+    5) Pretty print funkciju koja formatira JSON objekte u čitljv oblik umetanjem odgovarajućeg broja praznih polja na početak svakog reda.
+
+Biblioteku testirati na podacima iz fajla data.json. Primer formatiranih podataka dat je u fajlu dataPretty.json.
+

@@ -1,0 +1,4 @@
+1|zelena milja|Stiven King|1800|4|2004|prometej
+2|homo sacer|Djordjo Agamben|700|8|2013|svetlost
+3|Kako citati Lakana|Slavoj Zizek|2|2000|2000|svetlost
+4|Cetiri fundamentalna koncepta psihoanalize|Zak Lakan|2050|3|2000|svetlost
