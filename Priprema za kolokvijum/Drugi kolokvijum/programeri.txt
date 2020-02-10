@@ -1,0 +1,5 @@
+1|Marko|Spasic|web full stack|100
+2|Ana|Markovic|android|25    
+3|Ilija|Savic|web front end|20    
+4|Ilija|Dragic|web full stack|25    
+5|Pera|Peric|web front end|190
